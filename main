@@ -1,0 +1,3 @@
+Random rnd = new Random(); // створення об'єкту класу Random
+int randomNumber = rnd.Next(1, 101); // генерація випадкового числа в межах від 1 до 100
+Console.WriteLine("Випадкове число: " + randomNumber);
